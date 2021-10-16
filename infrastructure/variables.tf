@@ -5,7 +5,7 @@ variable "base_bucket_name" {
 variable "ambiente" {
   description = "AWS environment"
   type        = string
-  default     = "producao"
+  default     = "prod"
 }
 
 variable "numero_conta" {
